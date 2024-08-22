@@ -1,0 +1,159 @@
+.h-100 {
+  background-color: rgb(24, 32, 37);
+}
+.container {
+  color: #868e96;
+  font-family: Impact;
+}
+.btn-black {
+  background-color: rgb(24, 32, 37) !important;
+  color: white !important;
+  border-color: rgb(24, 32, 37) !important;
+  outline: none !important;
+  font-family: Impact, Charcoal, sans-serif !important;
+}
+.btn-black:hover,
+.btn-black:focus,
+.btn-black:active {
+  background-color: rgb(24, 32, 37) !important;
+  border-color: rgb(24, 32, 37) !important;
+  color: white !important;
+  outline: none !important;
+  box-shadow: none !important;
+  font-family: Impact, Charcoal, sans-serif !important;
+}
+.dropdown-item {
+  font-family: Impact, Charcoal, sans-serif !important;
+}
+.ml-auto {
+  margin-right: 5%;
+}
+.sw-btn {
+  margin-left: 5%;
+}
+.card-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+.card-carousel-item {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  margin-right: 20px;
+}
+.card-carousel-item:last-of-type {
+  margin-right: 10px;
+}
+.navbar-img {
+  width: 75px;
+  height: auto;
+}
+.btn-custom {
+  background-color: rgb(24, 32, 37) !important;
+  color: white !important;
+  border: none !important;
+}
+.btn-custom:hover {
+  background-color: rgb(24, 32, 37) !important;
+  opacity: 0.8;
+}
+.btn-custom2 {
+  background-color: #868e96 !important;
+  color: white !important;
+  border: none !important;
+}
+.btn-custom2:hover {
+  background-color: #868e96 !important;
+  opacity: 0.8;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.card {
+  width: 18rem;
+  height: 30rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card-img-top {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  height: 100%;
+}
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.card-text {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+.prop-text {
+  color: #868e96;
+}
+.character-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.character-info {
+  color: #868e96;
+}
+.character-info h1 {
+  color: #868e96;
+}
+.img-fluid {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+.starship-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.starship-info {
+  color: #868e96;
+}
+.starship-info h1 {
+  color: #868e96;
+}
+.planet-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.planet-info {
+  color: #868e96;
+}
+.planet-info h1 {
+  color: #868e96;
+}
